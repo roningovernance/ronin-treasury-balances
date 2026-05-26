@@ -1,0 +1,28 @@
+{
+  "name": "ronin-treasury-balances",
+  "version": "1.0.0",
+  "description": "Pull Ronin Treasury Balances",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "build": "echo \"Build complete\"",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "ronin",
+    "treasury",
+    "balances"
+  ],
+  "author": "roningovernance",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "eslint": "^8.50.0",
+    "jest": "^29.7.0"
+  }
+}
